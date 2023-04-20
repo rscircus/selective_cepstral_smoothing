@@ -75,5 +75,5 @@ def optimize_scts(noisy_signal):
 
 
 # TODO: Train
-ret = optimize_scts(none)
+ret = optimize_scts(None)
 print(ret)
