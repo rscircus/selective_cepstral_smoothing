@@ -1,6 +1,8 @@
-# A Priori SNR Estimation based on Selective Cepstral Smoothing
+# A Priori SNR Estimation and Optimization based on Selective Cepstral Smoothing
 
 This is probably the most compact implementation of Selective Cepstro-Temporal Smoothing with an optimizer around it to find the perfect tuning for a given noisy speech signal.
+
+_This approach displayed here goes one step further compared to the initial paper (see bottom) and optimizes for optimal SCTS settings using the L-BFGS-B algorithm._
 
 ## Method
 
