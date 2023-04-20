@@ -6,11 +6,13 @@ _This approach displayed here goes one step further compared to the initial pape
 
 ## Method
 
-The method is called "Selective Cepstro-Temporal Smoothing" (SCTS) and it consists of two stages:
+"Selective Cepstro-Temporal Smoothing" (SCTS) it consists of two stages:
 
 1. Calculation of the Cepstrum: In the first stage, the cepstrum of the noisy speech signal is calculated. The cepstrum is a representation of the speech signal in the frequency domain that is obtained by acquiring the real values of the inverse Fourier transform of the logarithm of the magnitude of the Fourier transform of the speech signal.
 
 2. Smoothing of the Cepstrum: In the second stage, the cepstrum is smoothed selectively in both the cepstral and temporal domains to obtain a more reliable estimate of the SNR.
+
+We add a third stage optimizing for the ideal control given a noisy speech signal.
 
 ## References
 
