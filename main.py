@@ -74,4 +74,6 @@ def optimize_scts(noisy_signal):
     return minimize(objective, x0, bounds=bounds, method='L-BFGS-B')
 
 
+# TODO: Train
 ret = optimize_scts(none)
+print(ret)
