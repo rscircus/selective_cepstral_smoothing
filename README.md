@@ -14,6 +14,10 @@ _This approach displayed here goes one step further compared to the initial pape
 
 We add a third stage optimizing for the ideal control given a noisy speech signal.
 
+## Related Experiments
+
+- COLAB: https://colab.research.google.com/drive/16A_DDTK69XTPAPf-ZUlcp2bRrVEW4omq#scrollTo=P-NP7-OhO7y3
+
 ## References
 
 > Colin Breithaupt, Timo Gerkmann, Rainer Martin, "A Novel A Priori SNR
